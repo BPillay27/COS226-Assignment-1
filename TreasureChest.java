@@ -23,7 +23,25 @@ public class TreasureChest {
      * Returns coins taken (0 if empty).
      */
     public int takeCoins(String playerName, int csWorkIters) {
-        //TODO: Implement Function
+        //done
+        lock.lock();
+
+        try{
+            if(coins<=0){
+                return 0;
+            }
+            busyWork(csWorkIters);
+
+            int maxGrab=Math.min(3,coins);
+            int taken = 1+ rand.nextInt(maxGrab);
+
+            coins=taken;
+
+            //System.out.println("");
+            return taken;
+        } finally{
+            lock.unlock();
+        }
     }
 
     // Simulates work INSIDE the lock (e.g., parsing/IO in real apps).
