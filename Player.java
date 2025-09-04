@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Random;
 
-public class Player implements Thread {
+public class Player implements Runnable {
     private final String name;
     private final List<TreasureChest> chests;
     private final int thinkTimeMs;  // OUTSIDE lock delay 
@@ -24,7 +24,7 @@ public class Player implements Thread {
                 totalCoins += chest.takeCoins(name, csWorkIters);
             }
             
-            //TODO: Taking coins
+            //done?????
             try {
                 if (thinkTimeMs > 0) Thread.sleep(thinkTimeMs);
             } catch (InterruptedException e) {
