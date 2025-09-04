@@ -15,6 +15,7 @@ public class CLHLock implements Lock {
         myPred = new ThreadLocal<>();
     }
 
+    @Override
     public void lock() {
         // done
         QNode node = currNode.get();
@@ -27,6 +28,7 @@ public class CLHLock implements Lock {
         }
     }
 
+    @Override
     public void unlock() {
         // done
         QNode node = currNode.get();
