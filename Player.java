@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Random;
 
-public class Player implements Runnable {
+public class Player extends Thread {
     private final String name;
     private final List<TreasureChest> chests;
     private final int thinkTimeMs;  // OUTSIDE lock delay 
@@ -34,6 +34,6 @@ public class Player implements Runnable {
         }
     }
 
-    public String getName() { return name; }
+    //public String getName() { return name; }
     public int getTotalCoins() { return totalCoins; }
 }

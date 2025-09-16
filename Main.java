@@ -28,23 +28,27 @@ public class Main {
     public static void main(String[] args) throws Exception {
         try {
             validateArgs(args);
-            
+
             Contention level = Contention.valueOf(args[0].toUpperCase());
             int numPlayers = Math.abs(Integer.parseInt(args[1]));
             Lock _lock = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
-            int numChest=Math.abs(Integer.parseInt(args[3]));
+            int numChest = Math.abs(Integer.parseInt(args[3]));
 
-            List<Player> players=new ArrayList<>();
-            List<TreasureChest> chests=new ArrayList<>();
+            List<Player> players = new ArrayList<>();
+            List<TreasureChest> chests = new ArrayList<>();
 
-            for(int i=0;i<numChest;i++){
-                chests.add(new TreasureChest("Chest "+i, 2000, _lock));
+            for (int i = 0; i < numChest; i++) {
+                chests.add(new TreasureChest("Chest " + i, 2000, _lock));
             }
 
-            for(int i=0;i<numPlayers;i++){
-                players.add(new Player("Player "+ i, chests, level.thinkMs, level.csWorkIters));
+            for (int i = 0; i < numPlayers; i++) {
+                players.add(new Player("Player " + i, chests, level.thinkMs, level.csWorkIters));
+                players.get(i).start();
             }
 
+            for (Player p : players) {
+                p.join();
+            }
 
         } catch (IllegalArgumentException e) {
             System.err.println("Arguement exception: " + e);
@@ -68,8 +72,8 @@ public class Main {
             throw new IllegalArgumentException("Invalid number of players. Must be a number.");
         }
 
-        int i=Integer.parseInt(input[1]);
-        if(i<1){
+        int i = Integer.parseInt(input[1]);
+        if (i < 1) {
             throw new IllegalArgumentException("Invalid number of players. Must greater than or equal 1.");
         }
 
@@ -81,9 +85,9 @@ public class Main {
         if (!isInteger(input[3])) {
             throw new IllegalArgumentException("Invalid number of chests. Must be a number.");
         }
-        
-        i=Integer.parseInt(input[3]);
-        if(i<1){
+
+        i = Integer.parseInt(input[3]);
+        if (i < 1) {
             throw new IllegalArgumentException("Invalid number of chests. Must greater than or equal 1.");
         }
     }
