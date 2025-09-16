@@ -23,14 +23,6 @@ public class Main {
         static int work(int v) {
             return v;
         }
-
-        int getThink() {
-            return thinkMs;
-        }
-
-        int getWork() {
-            return csWorkIters;
-        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -42,7 +34,16 @@ public class Main {
             Lock _lock = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
             int numChest=Math.abs(Integer.parseInt(args[3]));
 
-            
+            List<Player> players=new ArrayList<>();
+            List<TreasureChest> chests=new ArrayList<>();
+
+            for(int i=0;i<numChest;i++){
+                chests.add(new TreasureChest("Chest "+i, 2000, _lock));
+            }
+
+            for(int i=0;i<numPlayers;i++){
+                players.add(new Player("Player "+ i, chests, level.thinkMs, level.csWorkIters));
+            }
 
 
         } catch (IllegalArgumentException e) {
