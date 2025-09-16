@@ -35,39 +35,67 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         try {
-            Contention level = Contention.LOW;
-            int players = 2;
-            Lock _lock=new TTASLock();
+            validateArgs(args);
+            
+            Contention level = Contention.valueOf(args[0].toUpperCase());
+            int numPlayers = Math.abs(Integer.parseInt(args[1]));
+            Lock _lock = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
+            int numChest=Math.abs(Integer.parseInt(args[3]));
 
-            if (args.length > 3) {
-                throw new IllegalArgumentException("Too many arguments. At most 2!");
-            }
+            
 
-            if (args.length == 1) {
-                level = Contention.valueOf(args[0].toUpperCase());
-            } else if (args.length == 2) {
-                level = Contention.valueOf(args[0].toUpperCase());
-                players = Math.abs(Integer.parseInt(args[1]));
-            } else if (args.length==3){
-                level = Contention.valueOf(args[0].toUpperCase());
-                players = Math.abs(Integer.parseInt(args[1]));
-
-                if(args[2].equals("CLH")){
-                    _lock=new CLHLock();
-                }
-            }
-
-            System.out.println("RUNNING with " + args[0].toUpperCase() + " contention and " + args[1] + " players");
-            TreasureChest chest=new TreasureChest("Chest", 2000,_lock);
-            List<Player> playerList=new ArrayList<>();
-            for(int i;i<players;i++){
-                Player temp=new Player(String.valueOf(i),chest,level.thinkMs, level.csWorkIters);
-                playerList.add(new Player(String.valueOf(i),));
-            }
 
         } catch (IllegalArgumentException e) {
             System.err.println("Arguement exception: " + e);
+            return;
         }
 
+    }
+
+    public static void validateArgs(String[] input) {
+        if (input.length != 4) {
+            throw new IllegalArgumentException(
+                    "Too few/many Arguments. Arguments must be [ContentionType] [no. of players] [Type of Lock] [no. of chests].");
+        }
+
+        String temp = input[0].toUpperCase();
+        if (!temp.equals("HIGH") && !temp.equals("MEDIUM") && !temp.equals("LOW")) {
+            throw new IllegalArgumentException("Invalid contention. Must be LOW, MEDIUM or HIGH.");
+        }
+
+        if (!isInteger(input[1])) {
+            throw new IllegalArgumentException("Invalid number of players. Must be a number.");
+        }
+
+        int i=Integer.parseInt(input[1]);
+        if(i<1){
+            throw new IllegalArgumentException("Invalid number of players. Must greater than or equal 1.");
+        }
+
+        temp = input[2].toUpperCase();
+        if (!temp.equals("TTAS") && !temp.equals("CLH")) {
+            throw new IllegalArgumentException("Invalid lock type. Must be CLH or TTAS.");
+        }
+
+        if (!isInteger(input[3])) {
+            throw new IllegalArgumentException("Invalid number of chests. Must be a number.");
+        }
+        
+        i=Integer.parseInt(input[3]);
+        if(i<1){
+            throw new IllegalArgumentException("Invalid number of chests. Must greater than or equal 1.");
+        }
+    }
+
+    public static boolean isInteger(String input) {
+        if (input == null)
+            return false;
+
+        try {
+            Integer.parseInt(input);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 }
