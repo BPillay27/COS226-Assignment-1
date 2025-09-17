@@ -15,24 +15,18 @@ public class CLHLock implements Lock {
         myPred = new ThreadLocal<>();
     }
 
-    @Override
     public void lock() {
         // done
         QNode node = currNode.get();
         node.locked = true;
         QNode pred = tail.getAndSet(node);
         myPred.set(pred);
-
-        int spins = 0;
-
+        
         while (pred.locked) {
-            if ((++spins & 0x3FF) == 0) {
-                Thread.yield();
-            }
+           
         }
     }
 
-    @Override
     public void unlock() {
         // done
         QNode node = currNode.get();
@@ -43,3 +37,4 @@ public class CLHLock implements Lock {
 
     // may need to @overide the lock and unlock functions
 }
+
