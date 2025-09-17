@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class Main {
 
     enum Contention {
@@ -28,13 +27,12 @@ public class Main {
     public static void main(String[] args) throws Exception {
         try {
             String contention = (args.length > 0) ? args[0] : "LOW";
-        int _players = (args.length > 1) ? Integer.parseInt(args[1]) : 2;
-        String lockType = (args.length > 2) ? args[2] : "CLH";
-        int chestCount = (args.length > 3) ? Integer.parseInt(args[3]) : 2;
-            
-            
+            int _players = (args.length > 1) ? Integer.parseInt(args[1]) : 2;
+            String lockType = (args.length > 2) ? args[2] : "CLH";
+            int chestCount = (args.length > 3) ? Integer.parseInt(args[3]) : 2;
+
             System.out.printf("Args => contention=%s players=%d lock=%s chests=%d%n",
-                contention, _players, lockType, chestCount);
+                    contention, _players, lockType, chestCount);
             validateArgs(args);
 
             Contention level = Contention.valueOf(args[0].toUpperCase());
@@ -46,7 +44,7 @@ public class Main {
             List<TreasureChest> chests = new ArrayList<>();
 
             for (int i = 0; i < numChest; i++) {
-                Lock _temp=(args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
+                Lock _temp = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
                 chests.add(new TreasureChest("Chest " + i, 2000, _temp));
             }
 

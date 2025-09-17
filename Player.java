@@ -4,8 +4,8 @@ import java.util.Random;
 public class Player extends Thread {
     private final String name;
     private final List<TreasureChest> chests;
-    private final int thinkTimeMs;  // OUTSIDE lock delay 
-    private final int csWorkIters;  // INSIDE lock work 
+    private final int thinkTimeMs; // OUTSIDE lock delay
+    private final int csWorkIters; // INSIDE lock work
     private final Random rand = new Random();
     private int totalCoins = 0;
 
@@ -23,10 +23,11 @@ public class Player extends Thread {
             if (chest.hasCoins()) {
                 totalCoins += chest.takeCoins(name, csWorkIters);
             }
-            
-            //done?????
+
+            // done?????
             try {
-                if (thinkTimeMs > 0) Thread.sleep(thinkTimeMs);
+                if (thinkTimeMs > 0)
+                    Thread.sleep(thinkTimeMs);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 break;
@@ -34,7 +35,11 @@ public class Player extends Thread {
         }
     }
 
-    public String getPlayerName() { return name; }
-    public int getTotalCoins() { return totalCoins; }
-}
+    public String getPlayerName() {
+        return name;
+    }
 
+    public int getTotalCoins() {
+        return totalCoins;
+    }
+}

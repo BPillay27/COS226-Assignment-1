@@ -12,22 +12,21 @@ public class TTASLock implements Lock {
 
     public void lock() {
         // done
-        int currDelay=MIN_DELAY;
+        int currDelay = MIN_DELAY;
 
-        while(true){
-            while(state.get()){
-                    
+        while (true) {
+            while (state.get()) {
+
             }
-            if(!state.getAndSet(true)){
+            if (!state.getAndSet(true)) {
                 return;
-            }
-            else{
-                try{
+            } else {
+                try {
                     backoffCount.incrementAndGet();
-                    int _sleep=ThreadLocalRandom.current().nextInt(currDelay);
-                    Thread.sleep(0,_sleep*1000);
-                    currDelay=Math.min(MAX_DELAY,2*currDelay);
-                } catch(InterruptedException e){
+                    int _sleep = ThreadLocalRandom.current().nextInt(currDelay);
+                    Thread.sleep(0, _sleep * 1000);
+                    currDelay = Math.min(MAX_DELAY, 2 * currDelay);
+                } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 }
             }
