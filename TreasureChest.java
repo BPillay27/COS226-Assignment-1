@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class TreasureChest {
-    private int coins;
+    private volatile int coins;
     private final Lock lock;
     private final String name;
     private final Random rand = new Random();
@@ -35,7 +35,7 @@ public class TreasureChest {
             int maxGrab=Math.min(3,coins);
             int taken = 1+ rand.nextInt(maxGrab);
 
-            coins=taken;
+            coins-=taken;
 
             //System.out.println("");
             return taken;

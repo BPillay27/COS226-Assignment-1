@@ -1,12 +1,12 @@
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
+
 
 public class Main {
 
     enum Contention {
-        LOW(thinkMs(150), work(2000)),
-        MEDIUM(thinkMs(50), work(8000)),
-        HIGH(thinkMs(0), work(25000));
+        LOW(thinkMs(15), work(200)),
+        MEDIUM(thinkMs(5), work(800)),
+        HIGH(thinkMs(0), work(2500));
 
         final int thinkMs;
         final int csWorkIters;
@@ -27,6 +27,14 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         try {
+            String contention = (args.length > 0) ? args[0] : "LOW";
+        int _players = (args.length > 1) ? Integer.parseInt(args[1]) : 2;
+        String lockType = (args.length > 2) ? args[2] : "CLH";
+        int chestCount = (args.length > 3) ? Integer.parseInt(args[3]) : 2;
+            
+            
+            System.out.printf("Args => contention=%s players=%d lock=%s chests=%d%n",
+                contention, _players, lockType, chestCount);
             validateArgs(args);
 
             Contention level = Contention.valueOf(args[0].toUpperCase());
@@ -38,7 +46,8 @@ public class Main {
             List<TreasureChest> chests = new ArrayList<>();
 
             for (int i = 0; i < numChest; i++) {
-                chests.add(new TreasureChest("Chest " + i, 2000, _lock));
+                Lock _temp=(args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
+                chests.add(new TreasureChest("Chest " + i, 2000, _temp));
             }
 
             for (int i = 0; i < numPlayers; i++) {

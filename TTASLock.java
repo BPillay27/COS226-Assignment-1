@@ -2,7 +2,6 @@
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.LockSupport;
 
 public class TTASLock implements Lock {
     private final AtomicBoolean state = new AtomicBoolean(false);
@@ -44,7 +43,6 @@ public class TTASLock implements Lock {
         int sleepMicros=ThreadLocalRandom.current().nextInt(1,cap+1);
         if(sleepMicros>0){
             backoffCount.incrementAndGet();
-            LockSupport.parkNanos((sleepMicros*1_000L));
         }
 
         long next=(currentDelay<=0) ? 1L : (long) currentDelay*2L;

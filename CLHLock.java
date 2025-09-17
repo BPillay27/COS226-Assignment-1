@@ -23,8 +23,12 @@ public class CLHLock implements Lock {
         QNode pred = tail.getAndSet(node);
         myPred.set(pred);
 
-        while (pred.locked) {
+        int spins = 0;
 
+        while (pred.locked) {
+            if ((++spins & 0x3FF) == 0) {
+                Thread.yield();
+            }
         }
     }
 
