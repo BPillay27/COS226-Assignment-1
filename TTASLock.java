@@ -25,7 +25,7 @@ public class TTASLock implements Lock {
                 try{
                     backoffCount.incrementAndGet();
                     int _sleep=ThreadLocalRandom.current().nextInt(currDelay);
-                    Thread.sleep(0,sleepTime*1000);
+                    Thread.sleep(0,_sleep*1000);
                     currDelay=Math.min(MAX_DELAY,2*currDelay);
                 } catch(InterruptedException e){
                     Thread.currentThread().interrupt();
