@@ -34,6 +34,7 @@ public class Player extends Thread {
         }
     }
 
-    //public String getName() { return name; }
+    public String getPlayerName() { return name; }
     public int getTotalCoins() { return totalCoins; }
 }
+
