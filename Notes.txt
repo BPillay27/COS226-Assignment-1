@@ -1,0 +1,3436 @@
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49512 (ms)
+Run 2
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49816 (ms)
+Run 3
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50614 (ms)
+Run 4
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50631 (ms)
+Run 5
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50720 (ms)
+Run 6
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49954 (ms)
+Run 7
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49618 (ms)
+Run 8
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50144 (ms)
+Run 9
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50185 (ms)
+Run 10
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49856 (ms)
+Run 11
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50236 (ms)
+Run 12
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50821 (ms)
+Run 13
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50824 (ms)
+Run 14
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49229 (ms)
+Run 15
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50027 (ms)
+Run 16
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50616 (ms)
+Run 17
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50310 (ms)
+Run 18
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50744 (ms)
+Run 19
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50326 (ms)
+Run 20
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50417 (ms)
+Run 21
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50317 (ms)
+Run 22
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50338 (ms)
+Run 23
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 51119 (ms)
+Run 24
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49023 (ms)
+Run 25
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50631 (ms)
+Run 26
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50710 (ms)
+Run 27
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 49819 (ms)
+Run 28
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50838 (ms)
+Run 29
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50923 (ms)
+Run 30
+java -cp out Main LOW CLH 2 1
+Duration for LOW Contention, CLH lock, 2 players and 1 chests = 50413 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 49225 (ms)
+Run 2
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50230 (ms)
+Run 3
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50265 (ms)
+Run 4
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50635 (ms)
+Run 5
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50819 (ms)
+Run 6
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 51417 (ms)
+Run 7
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50549 (ms)
+Run 8
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 49136 (ms)
+Run 9
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50960 (ms)
+Run 10
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 49495 (ms)
+Run 11
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50091 (ms)
+Run 12
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 51188 (ms)
+Run 13
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50819 (ms)
+Run 14
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 51425 (ms)
+Run 15
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 51086 (ms)
+Run 16
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50272 (ms)
+Run 17
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 49934 (ms)
+Run 18
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50730 (ms)
+Run 19
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50237 (ms)
+Run 20
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50231 (ms)
+Run 21
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 48838 (ms)
+Run 22
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50293 (ms)
+Run 23
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 51181 (ms)
+Run 24
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50034 (ms)
+Run 25
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 48923 (ms)
+Run 26
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50255 (ms)
+Run 27
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50061 (ms)
+Run 28
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 49333 (ms)
+Run 29
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50419 (ms)
+Run 30
+java -cp out Main LOW TTAS 2 1
+Duration for LOW Contention, TTAS lock, 2 players and 1 chests = 50531 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 14986 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15141 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15058 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15296 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15227 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 14983 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15535 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15292 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15113 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15203 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15234 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15264 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15563 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15358 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15207 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 14927 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15081 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15207 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15358 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15045 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15017 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15177 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15018 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 14842 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15111 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15174 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15539 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15086 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15013 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 2 1
+Duration for MEDIUM Contention, CLH lock, 2 players and 1 chests = 15458 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15026 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15312 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 14831 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15534 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15289 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15264 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15261 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15080 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 14777 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 14987 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 14803 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15437 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15251 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15004 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15164 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15283 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15284 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15255 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15101 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15438 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15140 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15284 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15260 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15326 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15411 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 14929 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15229 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15081 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15138 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 2 1
+Duration for MEDIUM Contention, TTAS lock, 2 players and 1 chests = 15166 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2645 (ms)
+Run 2
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2676 (ms)
+Run 3
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2661 (ms)
+Run 4
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2681 (ms)
+Run 5
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2682 (ms)
+Run 6
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2719 (ms)
+Run 7
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2663 (ms)
+Run 8
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2668 (ms)
+Run 9
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2648 (ms)
+Run 10
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2681 (ms)
+Run 11
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2671 (ms)
+Run 12
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2677 (ms)
+Run 13
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2630 (ms)
+Run 14
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2713 (ms)
+Run 15
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2719 (ms)
+Run 16
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2677 (ms)
+Run 17
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2695 (ms)
+Run 18
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2614 (ms)
+Run 19
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2636 (ms)
+Run 20
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2664 (ms)
+Run 21
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2701 (ms)
+Run 22
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2657 (ms)
+Run 23
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2654 (ms)
+Run 24
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2638 (ms)
+Run 25
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2673 (ms)
+Run 26
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2640 (ms)
+Run 27
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2683 (ms)
+Run 28
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2638 (ms)
+Run 29
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2622 (ms)
+Run 30
+java -cp out Main HIGH CLH 2 1
+Duration for HIGH Contention, CLH lock, 2 players and 1 chests = 2652 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2634 (ms)
+Run 2
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2644 (ms)
+Run 3
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2696 (ms)
+Run 4
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2580 (ms)
+Run 5
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2633 (ms)
+Run 6
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2604 (ms)
+Run 7
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2657 (ms)
+Run 8
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2656 (ms)
+Run 9
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2653 (ms)
+Run 10
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2663 (ms)
+Run 11
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2662 (ms)
+Run 12
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2660 (ms)
+Run 13
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2672 (ms)
+Run 14
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2685 (ms)
+Run 15
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2687 (ms)
+Run 16
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2694 (ms)
+Run 17
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2650 (ms)
+Run 18
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2650 (ms)
+Run 19
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2682 (ms)
+Run 20
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2620 (ms)
+Run 21
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2712 (ms)
+Run 22
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2632 (ms)
+Run 23
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2670 (ms)
+Run 24
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2641 (ms)
+Run 25
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2610 (ms)
+Run 26
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2685 (ms)
+Run 27
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2660 (ms)
+Run 28
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2611 (ms)
+Run 29
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2670 (ms)
+Run 30
+java -cp out Main HIGH TTAS 2 1
+Duration for HIGH Contention, TTAS lock, 2 players and 1 chests = 2662 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12354 (ms)
+Run 2
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12562 (ms)
+Run 3
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12566 (ms)
+Run 4
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12558 (ms)
+Run 5
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12557 (ms)
+Run 6
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12464 (ms)
+Run 7
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12861 (ms)
+Run 8
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12156 (ms)
+Run 9
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12561 (ms)
+Run 10
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12560 (ms)
+Run 11
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12662 (ms)
+Run 12
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12660 (ms)
+Run 13
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12559 (ms)
+Run 14
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12458 (ms)
+Run 15
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12868 (ms)
+Run 16
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12767 (ms)
+Run 17
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12762 (ms)
+Run 18
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12453 (ms)
+Run 19
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12665 (ms)
+Run 20
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12863 (ms)
+Run 21
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12565 (ms)
+Run 22
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12455 (ms)
+Run 23
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12660 (ms)
+Run 24
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12354 (ms)
+Run 25
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12658 (ms)
+Run 26
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12360 (ms)
+Run 27
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12764 (ms)
+Run 28
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12455 (ms)
+Run 29
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12562 (ms)
+Run 30
+java -cp out Main LOW TTAS 8 1
+Duration for LOW Contention, TTAS lock, 8 players and 1 chests = 12861 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12453 (ms)
+Run 2
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12661 (ms)
+Run 3
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12667 (ms)
+Run 4
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12663 (ms)
+Run 5
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12564 (ms)
+Run 6
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12365 (ms)
+Run 7
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12658 (ms)
+Run 8
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12353 (ms)
+Run 9
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12662 (ms)
+Run 10
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12757 (ms)
+Run 11
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12360 (ms)
+Run 12
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12665 (ms)
+Run 13
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12359 (ms)
+Run 14
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12364 (ms)
+Run 15
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12663 (ms)
+Run 16
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12763 (ms)
+Run 17
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12761 (ms)
+Run 18
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12461 (ms)
+Run 19
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12661 (ms)
+Run 20
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12466 (ms)
+Run 21
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12765 (ms)
+Run 22
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12859 (ms)
+Run 23
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12563 (ms)
+Run 24
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12866 (ms)
+Run 25
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12756 (ms)
+Run 26
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12467 (ms)
+Run 27
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12460 (ms)
+Run 28
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12457 (ms)
+Run 29
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 12563 (ms)
+Run 30
+java -cp out Main LOW CLH 8 1
+Duration for LOW Contention, CLH lock, 8 players and 1 chests = 13158 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3799 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3835 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3893 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3775 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3712 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3870 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3773 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3865 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3833 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3831 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3836 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3773 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3777 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3808 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3681 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3929 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3866 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3910 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3826 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3795 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3827 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3835 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3793 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3768 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3805 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3797 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3798 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3707 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3831 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 8 1
+Duration for MEDIUM Contention, TTAS lock, 8 players and 1 chests = 3792 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3889 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3819 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3768 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3865 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3773 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3890 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3799 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3804 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3863 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3870 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3864 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3864 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3807 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3838 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3778 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3746 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3836 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3749 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3839 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3811 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3772 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3864 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3863 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3781 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3743 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3864 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3835 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3853 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3802 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 8 1
+Duration for MEDIUM Contention, CLH lock, 8 players and 1 chests = 3848 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 652 (ms)
+Run 2
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 658 (ms)
+Run 3
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 649 (ms)
+Run 4
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 671 (ms)
+Run 5
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 667 (ms)
+Run 6
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 662 (ms)
+Run 7
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 658 (ms)
+Run 8
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 651 (ms)
+Run 9
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 666 (ms)
+Run 10
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 666 (ms)
+Run 11
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 667 (ms)
+Run 12
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 681 (ms)
+Run 13
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 648 (ms)
+Run 14
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 648 (ms)
+Run 15
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 653 (ms)
+Run 16
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 663 (ms)
+Run 17
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 653 (ms)
+Run 18
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 668 (ms)
+Run 19
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 692 (ms)
+Run 20
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 665 (ms)
+Run 21
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 667 (ms)
+Run 22
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 667 (ms)
+Run 23
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 655 (ms)
+Run 24
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 660 (ms)
+Run 25
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 675 (ms)
+Run 26
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 652 (ms)
+Run 27
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 669 (ms)
+Run 28
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 677 (ms)
+Run 29
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 663 (ms)
+Run 30
+java -cp out Main HIGH TTAS 8 1
+Duration for HIGH Contention, TTAS lock, 8 players and 1 chests = 661 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 668 (ms)
+Run 2
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 677 (ms)
+Run 3
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 662 (ms)
+Run 4
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 664 (ms)
+Run 5
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 683 (ms)
+Run 6
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 679 (ms)
+Run 7
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 655 (ms)
+Run 8
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 672 (ms)
+Run 9
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 664 (ms)
+Run 10
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 665 (ms)
+Run 11
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 676 (ms)
+Run 12
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 675 (ms)
+Run 13
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 671 (ms)
+Run 14
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 666 (ms)
+Run 15
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 656 (ms)
+Run 16
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 669 (ms)
+Run 17
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 679 (ms)
+Run 18
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 672 (ms)
+Run 19
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 657 (ms)
+Run 20
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 646 (ms)
+Run 21
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 673 (ms)
+Run 22
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 675 (ms)
+Run 23
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 674 (ms)
+Run 24
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 647 (ms)
+Run 25
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 678 (ms)
+Run 26
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 669 (ms)
+Run 27
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 675 (ms)
+Run 28
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 643 (ms)
+Run 29
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 672 (ms)
+Run 30
+java -cp out Main HIGH CLH 8 1
+Duration for HIGH Contention, CLH lock, 8 players and 1 chests = 661 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6241 (ms)
+Run 2
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6341 (ms)
+Run 3
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6134 (ms)
+Run 4
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6243 (ms)
+Run 5
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6232 (ms)
+Run 6
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6333 (ms)
+Run 7
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6443 (ms)
+Run 8
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6435 (ms)
+Run 9
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6441 (ms)
+Run 10
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6335 (ms)
+Run 11
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6245 (ms)
+Run 12
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6435 (ms)
+Run 13
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6439 (ms)
+Run 14
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6334 (ms)
+Run 15
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6337 (ms)
+Run 16
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6344 (ms)
+Run 17
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6338 (ms)
+Run 18
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6534 (ms)
+Run 19
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6234 (ms)
+Run 20
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6438 (ms)
+Run 21
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6444 (ms)
+Run 22
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6236 (ms)
+Run 23
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6439 (ms)
+Run 24
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6348 (ms)
+Run 25
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6447 (ms)
+Run 26
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6234 (ms)
+Run 27
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6245 (ms)
+Run 28
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6440 (ms)
+Run 29
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6237 (ms)
+Run 30
+java -cp out Main LOW TTAS 16 1
+Duration for LOW Contention, TTAS lock, 16 players and 1 chests = 6234 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6229 (ms)
+Run 2
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6235 (ms)
+Run 3
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6338 (ms)
+Run 4
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6238 (ms)
+Run 5
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6435 (ms)
+Run 6
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6236 (ms)
+Run 7
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6342 (ms)
+Run 8
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6435 (ms)
+Run 9
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6330 (ms)
+Run 10
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6538 (ms)
+Run 11
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6239 (ms)
+Run 12
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6335 (ms)
+Run 13
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6436 (ms)
+Run 14
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6440 (ms)
+Run 15
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6438 (ms)
+Run 16
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6334 (ms)
+Run 17
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6239 (ms)
+Run 18
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6439 (ms)
+Run 19
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6135 (ms)
+Run 20
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6240 (ms)
+Run 21
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6533 (ms)
+Run 22
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6441 (ms)
+Run 23
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6337 (ms)
+Run 24
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6434 (ms)
+Run 25
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6235 (ms)
+Run 26
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6241 (ms)
+Run 27
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6234 (ms)
+Run 28
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6235 (ms)
+Run 29
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6235 (ms)
+Run 30
+java -cp out Main LOW CLH 16 1
+Duration for LOW Contention, CLH lock, 16 players and 1 chests = 6338 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1891 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1932 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1919 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1960 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1919 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1930 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1934 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1953 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1956 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1958 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1927 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1930 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1927 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1962 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1924 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1924 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1926 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1920 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1926 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1895 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1901 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1901 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1923 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1931 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1926 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1926 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1897 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1924 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1957 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 16 1
+Duration for MEDIUM Contention, TTAS lock, 16 players and 1 chests = 1987 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1920 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1890 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1892 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1922 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1887 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1959 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1925 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1953 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1946 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1985 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1957 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1953 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1894 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1894 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1924 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1924 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1866 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1893 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1923 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1955 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1925 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1928 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1896 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1922 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1898 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1927 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1928 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1892 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1927 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 16 1
+Duration for MEDIUM Contention, CLH lock, 16 players and 1 chests = 1901 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 327 (ms)
+Run 2
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 348 (ms)
+Run 3
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 349 (ms)
+Run 4
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 340 (ms)
+Run 5
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 330 (ms)
+Run 6
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 7
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 347 (ms)
+Run 8
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 345 (ms)
+Run 9
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 340 (ms)
+Run 10
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 331 (ms)
+Run 11
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 12
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 350 (ms)
+Run 13
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 14
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 15
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 334 (ms)
+Run 16
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 333 (ms)
+Run 17
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 342 (ms)
+Run 18
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 335 (ms)
+Run 19
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 334 (ms)
+Run 20
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 346 (ms)
+Run 21
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 350 (ms)
+Run 22
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 336 (ms)
+Run 23
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 24
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 343 (ms)
+Run 25
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 335 (ms)
+Run 26
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 350 (ms)
+Run 27
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 337 (ms)
+Run 28
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 340 (ms)
+Run 29
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 330 (ms)
+Run 30
+java -cp out Main HIGH TTAS 16 1
+Duration for HIGH Contention, TTAS lock, 16 players and 1 chests = 345 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 353 (ms)
+Run 2
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 338 (ms)
+Run 3
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 340 (ms)
+Run 4
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 332 (ms)
+Run 5
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 339 (ms)
+Run 6
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 331 (ms)
+Run 7
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 338 (ms)
+Run 8
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 338 (ms)
+Run 9
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 342 (ms)
+Run 10
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 339 (ms)
+Run 11
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 344 (ms)
+Run 12
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 345 (ms)
+Run 13
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 334 (ms)
+Run 14
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 341 (ms)
+Run 15
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 329 (ms)
+Run 16
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 340 (ms)
+Run 17
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 332 (ms)
+Run 18
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 336 (ms)
+Run 19
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 330 (ms)
+Run 20
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 333 (ms)
+Run 21
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 337 (ms)
+Run 22
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 346 (ms)
+Run 23
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 337 (ms)
+Run 24
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 338 (ms)
+Run 25
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 343 (ms)
+Run 26
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 351 (ms)
+Run 27
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 336 (ms)
+Run 28
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 335 (ms)
+Run 29
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 336 (ms)
+Run 30
+java -cp out Main HIGH CLH 16 1
+Duration for HIGH Contention, CLH lock, 16 players and 1 chests = 337 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 110087 (ms)
+Run 2
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102580 (ms)
+Run 3
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103215 (ms)
+Run 4
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101808 (ms)
+Run 5
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103947 (ms)
+Run 6
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100430 (ms)
+Run 7
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102480 (ms)
+Run 8
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100032 (ms)
+Run 9
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100761 (ms)
+Run 10
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101138 (ms)
+Run 11
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100614 (ms)
+Run 12
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102336 (ms)
+Run 13
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 105717 (ms)
+Run 14
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100748 (ms)
+Run 15
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101561 (ms)
+Run 16
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102151 (ms)
+Run 17
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101916 (ms)
+Run 18
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101720 (ms)
+Run 19
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100970 (ms)
+Run 20
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103986 (ms)
+Run 21
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 105419 (ms)
+Run 22
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103742 (ms)
+Run 23
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101551 (ms)
+Run 24
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 100779 (ms)
+Run 25
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102290 (ms)
+Run 26
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101153 (ms)
+Run 27
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103746 (ms)
+Run 28
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 101246 (ms)
+Run 29
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 102247 (ms)
+Run 30
+java -cp out Main LOW TTAS 2 2
+Duration for LOW Contention, TTAS lock, 2 players and 2 chests = 103184 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 100668 (ms)
+Run 2
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102418 (ms)
+Run 3
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103234 (ms)
+Run 4
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102719 (ms)
+Run 5
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103241 (ms)
+Run 6
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101970 (ms)
+Run 7
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101767 (ms)
+Run 8
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 99969 (ms)
+Run 9
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 104054 (ms)
+Run 10
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103945 (ms)
+Run 11
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101429 (ms)
+Run 12
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101536 (ms)
+Run 13
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102261 (ms)
+Run 14
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103040 (ms)
+Run 15
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103751 (ms)
+Run 16
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103529 (ms)
+Run 17
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103552 (ms)
+Run 18
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 105175 (ms)
+Run 19
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102109 (ms)
+Run 20
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102231 (ms)
+Run 21
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101951 (ms)
+Run 22
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102754 (ms)
+Run 23
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101454 (ms)
+Run 24
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102438 (ms)
+Run 25
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 101539 (ms)
+Run 26
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 105562 (ms)
+Run 27
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 103546 (ms)
+Run 28
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102446 (ms)
+Run 29
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 102556 (ms)
+Run 30
+java -cp out Main LOW CLH 2 2
+Duration for LOW Contention, CLH lock, 2 players and 2 chests = 100527 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31839 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30916 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30733 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31164 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31117 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30966 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31039 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30731 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31404 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30779 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30505 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30373 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31599 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30562 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31453 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31165 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31684 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30256 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31802 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30358 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30117 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31067 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30450 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31233 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 32749 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30810 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30559 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30170 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 31325 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 2 2
+Duration for MEDIUM Contention, TTAS lock, 2 players and 2 chests = 30850 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31429 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30616 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30674 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30111 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30591 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31083 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30738 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30662 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30747 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30477 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30422 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31992 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31792 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31238 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31140 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30607 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30801 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31240 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31507 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30863 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31158 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31203 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31015 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31094 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31449 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 32322 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31487 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31044 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 30906 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 2 2
+Duration for MEDIUM Contention, CLH lock, 2 players and 2 chests = 31455 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5393 (ms)
+Run 2
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5383 (ms)
+Run 3
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5516 (ms)
+Run 4
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5535 (ms)
+Run 5
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5368 (ms)
+Run 6
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5370 (ms)
+Run 7
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5465 (ms)
+Run 8
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5316 (ms)
+Run 9
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5345 (ms)
+Run 10
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5403 (ms)
+Run 11
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5363 (ms)
+Run 12
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5418 (ms)
+Run 13
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5518 (ms)
+Run 14
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5349 (ms)
+Run 15
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5334 (ms)
+Run 16
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5236 (ms)
+Run 17
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5397 (ms)
+Run 18
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5385 (ms)
+Run 19
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5526 (ms)
+Run 20
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5395 (ms)
+Run 21
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5338 (ms)
+Run 22
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5339 (ms)
+Run 23
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5432 (ms)
+Run 24
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5260 (ms)
+Run 25
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5475 (ms)
+Run 26
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5408 (ms)
+Run 27
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5493 (ms)
+Run 28
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5609 (ms)
+Run 29
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5474 (ms)
+Run 30
+java -cp out Main HIGH TTAS 2 2
+Duration for HIGH Contention, TTAS lock, 2 players and 2 chests = 5389 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5430 (ms)
+Run 2
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5388 (ms)
+Run 3
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5299 (ms)
+Run 4
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5430 (ms)
+Run 5
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5375 (ms)
+Run 6
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5314 (ms)
+Run 7
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5516 (ms)
+Run 8
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5436 (ms)
+Run 9
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5466 (ms)
+Run 10
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5388 (ms)
+Run 11
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5556 (ms)
+Run 12
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5371 (ms)
+Run 13
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5392 (ms)
+Run 14
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5397 (ms)
+Run 15
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5403 (ms)
+Run 16
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5564 (ms)
+Run 17
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5345 (ms)
+Run 18
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5388 (ms)
+Run 19
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5382 (ms)
+Run 20
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5483 (ms)
+Run 21
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5339 (ms)
+Run 22
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5528 (ms)
+Run 23
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5453 (ms)
+Run 24
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5494 (ms)
+Run 25
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5243 (ms)
+Run 26
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5606 (ms)
+Run 27
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5426 (ms)
+Run 28
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5410 (ms)
+Run 29
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5365 (ms)
+Run 30
+java -cp out Main HIGH CLH 2 2
+Duration for HIGH Contention, CLH lock, 2 players and 2 chests = 5459 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 24703 (ms)
+Run 2
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25011 (ms)
+Run 3
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25511 (ms)
+Run 4
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 24815 (ms)
+Run 5
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25709 (ms)
+Run 6
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25708 (ms)
+Run 7
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25821 (ms)
+Run 8
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26122 (ms)
+Run 9
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25815 (ms)
+Run 10
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25510 (ms)
+Run 11
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26220 (ms)
+Run 12
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25714 (ms)
+Run 13
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25414 (ms)
+Run 14
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25212 (ms)
+Run 15
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25507 (ms)
+Run 16
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25919 (ms)
+Run 17
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25813 (ms)
+Run 18
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25214 (ms)
+Run 19
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26018 (ms)
+Run 20
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26006 (ms)
+Run 21
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25305 (ms)
+Run 22
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26317 (ms)
+Run 23
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25591 (ms)
+Run 24
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25118 (ms)
+Run 25
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25212 (ms)
+Run 26
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 24909 (ms)
+Run 27
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25417 (ms)
+Run 28
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25613 (ms)
+Run 29
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 26418 (ms)
+Run 30
+java -cp out Main LOW TTAS 8 2
+Duration for LOW Contention, TTAS lock, 8 players and 2 chests = 25416 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25919 (ms)
+Run 2
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25429 (ms)
+Run 3
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26032 (ms)
+Run 4
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25205 (ms)
+Run 5
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25720 (ms)
+Run 6
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25314 (ms)
+Run 7
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25115 (ms)
+Run 8
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26717 (ms)
+Run 9
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25012 (ms)
+Run 10
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26518 (ms)
+Run 11
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25719 (ms)
+Run 12
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26319 (ms)
+Run 13
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25415 (ms)
+Run 14
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25213 (ms)
+Run 15
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26013 (ms)
+Run 16
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25610 (ms)
+Run 17
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 27016 (ms)
+Run 18
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25402 (ms)
+Run 19
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25614 (ms)
+Run 20
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25624 (ms)
+Run 21
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25215 (ms)
+Run 22
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25619 (ms)
+Run 23
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25723 (ms)
+Run 24
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26316 (ms)
+Run 25
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26016 (ms)
+Run 26
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25310 (ms)
+Run 27
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25524 (ms)
+Run 28
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 26025 (ms)
+Run 29
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25220 (ms)
+Run 30
+java -cp out Main LOW CLH 8 2
+Duration for LOW Contention, CLH lock, 8 players and 2 chests = 25625 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7616 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7533 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7681 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7663 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7690 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7880 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7594 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7778 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7624 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 8022 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7906 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7662 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7656 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7903 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7653 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 8063 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7748 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7614 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7930 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7691 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7791 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7917 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7658 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7959 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7629 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 8085 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7713 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7841 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7805 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 8 2
+Duration for MEDIUM Contention, TTAS lock, 8 players and 2 chests = 7606 (ms)
+
+
+
+
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7726 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7690 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7721 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7632 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7665 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7722 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7694 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7726 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 8024 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7755 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7837 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7869 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7662 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7813 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7780 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7572 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7808 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7625 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7573 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7687 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7752 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7880 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 8059 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7818 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7698 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7849 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7695 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7632 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7690 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 8 2
+Duration for MEDIUM Contention, CLH lock, 8 players and 2 chests = 7902 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1366 (ms)
+Run 2
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1310 (ms)
+Run 3
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1321 (ms)
+Run 4
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1350 (ms)
+Run 5
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1320 (ms)
+Run 6
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1336 (ms)
+Run 7
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1355 (ms)
+Run 8
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1301 (ms)
+Run 9
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1347 (ms)
+Run 10
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1325 (ms)
+Run 11
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1382 (ms)
+Run 12
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1310 (ms)
+Run 13
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1374 (ms)
+Run 14
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1315 (ms)
+Run 15
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1316 (ms)
+Run 16
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1336 (ms)
+Run 17
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1375 (ms)
+Run 18
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1326 (ms)
+Run 19
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1334 (ms)
+Run 20
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1332 (ms)
+Run 21
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1336 (ms)
+Run 22
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1401 (ms)
+Run 23
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1309 (ms)
+Run 24
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1338 (ms)
+Run 25
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1307 (ms)
+Run 26
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1324 (ms)
+Run 27
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1359 (ms)
+Run 28
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1355 (ms)
+Run 29
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1349 (ms)
+Run 30
+java -cp out Main HIGH TTAS 8 2
+Duration for HIGH Contention, TTAS lock, 8 players and 2 chests = 1354 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1343 (ms)
+Run 2
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1315 (ms)
+Run 3
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1384 (ms)
+Run 4
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1292 (ms)
+Run 5
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1373 (ms)
+Run 6
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1376 (ms)
+Run 7
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1305 (ms)
+Run 8
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1382 (ms)
+Run 9
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1332 (ms)
+Run 10
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1315 (ms)
+Run 11
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1359 (ms)
+Run 12
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1330 (ms)
+Run 13
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1399 (ms)
+Run 14
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1341 (ms)
+Run 15
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1311 (ms)
+Run 16
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1319 (ms)
+Run 17
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1295 (ms)
+Run 18
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1321 (ms)
+Run 19
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1346 (ms)
+Run 20
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1311 (ms)
+Run 21
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1357 (ms)
+Run 22
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1361 (ms)
+Run 23
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1326 (ms)
+Run 24
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1397 (ms)
+Run 25
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1350 (ms)
+Run 26
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1321 (ms)
+Run 27
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1376 (ms)
+Run 28
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1367 (ms)
+Run 29
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1357 (ms)
+Run 30
+java -cp out Main HIGH CLH 8 2
+Duration for HIGH Contention, CLH lock, 8 players and 2 chests = 1346 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12748 (ms)
+Run 2
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12762 (ms)
+Run 3
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12765 (ms)
+Run 4
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12568 (ms)
+Run 5
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13064 (ms)
+Run 6
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12863 (ms)
+Run 7
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13267 (ms)
+Run 8
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12861 (ms)
+Run 9
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12871 (ms)
+Run 10
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12869 (ms)
+Run 11
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12664 (ms)
+Run 12
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12777 (ms)
+Run 13
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12771 (ms)
+Run 14
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12875 (ms)
+Run 15
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12765 (ms)
+Run 16
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13267 (ms)
+Run 17
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12381 (ms)
+Run 18
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12560 (ms)
+Run 19
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13160 (ms)
+Run 20
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12539 (ms)
+Run 21
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13056 (ms)
+Run 22
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12660 (ms)
+Run 23
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12867 (ms)
+Run 24
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12860 (ms)
+Run 25
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12765 (ms)
+Run 26
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12760 (ms)
+Run 27
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12855 (ms)
+Run 28
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12667 (ms)
+Run 29
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 13063 (ms)
+Run 30
+java -cp out Main LOW TTAS 16 2
+Duration for LOW Contention, TTAS lock, 16 players and 2 chests = 12874 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12739 (ms)
+Run 2
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12457 (ms)
+Run 3
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12954 (ms)
+Run 4
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12866 (ms)
+Run 5
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12763 (ms)
+Run 6
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12564 (ms)
+Run 7
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12942 (ms)
+Run 8
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12568 (ms)
+Run 9
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12772 (ms)
+Run 10
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12666 (ms)
+Run 11
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 13276 (ms)
+Run 12
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12775 (ms)
+Run 13
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12764 (ms)
+Run 14
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12668 (ms)
+Run 15
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12759 (ms)
+Run 16
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12768 (ms)
+Run 17
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12967 (ms)
+Run 18
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12964 (ms)
+Run 19
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12665 (ms)
+Run 20
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12665 (ms)
+Run 21
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12775 (ms)
+Run 22
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 13067 (ms)
+Run 23
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 13073 (ms)
+Run 24
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12972 (ms)
+Run 25
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12971 (ms)
+Run 26
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 13061 (ms)
+Run 27
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12766 (ms)
+Run 28
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12972 (ms)
+Run 29
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12767 (ms)
+Run 30
+java -cp out Main LOW CLH 16 2
+Duration for LOW Contention, CLH lock, 16 players and 2 chests = 12664 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3822 (ms)
+Run 2
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3909 (ms)
+Run 3
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3981 (ms)
+Run 4
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3831 (ms)
+Run 5
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3941 (ms)
+Run 6
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3896 (ms)
+Run 7
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3861 (ms)
+Run 8
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3925 (ms)
+Run 9
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 4009 (ms)
+Run 10
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3851 (ms)
+Run 11
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3851 (ms)
+Run 12
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3974 (ms)
+Run 13
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3833 (ms)
+Run 14
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3804 (ms)
+Run 15
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 4014 (ms)
+Run 16
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3924 (ms)
+Run 17
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3897 (ms)
+Run 18
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3959 (ms)
+Run 19
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3898 (ms)
+Run 20
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3867 (ms)
+Run 21
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3842 (ms)
+Run 22
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3871 (ms)
+Run 23
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3844 (ms)
+Run 24
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3842 (ms)
+Run 25
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3903 (ms)
+Run 26
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3928 (ms)
+Run 27
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 4052 (ms)
+Run 28
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3896 (ms)
+Run 29
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3928 (ms)
+Run 30
+java -cp out Main MEDIUM TTAS 16 2
+Duration for MEDIUM Contention, TTAS lock, 16 players and 2 chests = 3868 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 4047 (ms)
+Run 2
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3868 (ms)
+Run 3
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3835 (ms)
+Run 4
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3863 (ms)
+Run 5
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3928 (ms)
+Run 6
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3873 (ms)
+Run 7
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3958 (ms)
+Run 8
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3871 (ms)
+Run 9
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3904 (ms)
+Run 10
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3933 (ms)
+Run 11
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3935 (ms)
+Run 12
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3847 (ms)
+Run 13
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3804 (ms)
+Run 14
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3926 (ms)
+Run 15
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3869 (ms)
+Run 16
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3929 (ms)
+Run 17
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3992 (ms)
+Run 18
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3867 (ms)
+Run 19
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3935 (ms)
+Run 20
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3892 (ms)
+Run 21
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3897 (ms)
+Run 22
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3837 (ms)
+Run 23
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3811 (ms)
+Run 24
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3741 (ms)
+Run 25
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3896 (ms)
+Run 26
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3922 (ms)
+Run 27
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3806 (ms)
+Run 28
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3836 (ms)
+Run 29
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3833 (ms)
+Run 30
+java -cp out Main MEDIUM CLH 16 2
+Duration for MEDIUM Contention, CLH lock, 16 players and 2 chests = 3923 (ms)
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 683 (ms)
+Run 2
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 661 (ms)
+Run 3
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 673 (ms)
+Run 4
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 674 (ms)
+Run 5
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 673 (ms)
+Run 6
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 675 (ms)
+Run 7
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 671 (ms)
+Run 8
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 667 (ms)
+Run 9
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 656 (ms)
+Run 10
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 683 (ms)
+Run 11
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 665 (ms)
+Run 12
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 675 (ms)
+Run 13
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 683 (ms)
+Run 14
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 671 (ms)
+Run 15
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 685 (ms)
+Run 16
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 668 (ms)
+Run 17
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 693 (ms)
+Run 18
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 666 (ms)
+Run 19
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 677 (ms)
+Run 20
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 675 (ms)
+Run 21
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 686 (ms)
+Run 22
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 687 (ms)
+Run 23
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 675 (ms)
+Run 24
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 669 (ms)
+Run 25
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 666 (ms)
+Run 26
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 676 (ms)
+Run 27
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 682 (ms)
+Run 28
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 685 (ms)
+Run 29
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 662 (ms)
+Run 30
+java -cp out Main HIGH TTAS 16 2
+Duration for HIGH Contention, TTAS lock, 16 players and 2 chests = 698 (ms)
+
+
+
+
+Run 1
+mkdir -p out
+javac -d out CLHLock.java Lock.java Main.java Player.java TreasureChest.java TTASLock.java
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 658 (ms)
+Run 2
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 679 (ms)
+Run 3
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 646 (ms)
+Run 4
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 667 (ms)
+Run 5
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 662 (ms)
+Run 6
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 664 (ms)
+Run 7
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 684 (ms)
+Run 8
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 673 (ms)
+Run 9
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 688 (ms)
+Run 10
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 670 (ms)
+Run 11
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 691 (ms)
+Run 12
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 678 (ms)
+Run 13
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 671 (ms)
+Run 14
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 657 (ms)
+Run 15
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 672 (ms)
+Run 16
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 678 (ms)
+Run 17
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 659 (ms)
+Run 18
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 674 (ms)
+Run 19
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 677 (ms)
+Run 20
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 687 (ms)
+Run 21
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 689 (ms)
+Run 22
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 691 (ms)
+Run 23
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 687 (ms)
+Run 24
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 677 (ms)
+Run 25
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 661 (ms)
+Run 26
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 665 (ms)
+Run 27
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 667 (ms)
+Run 28
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 674 (ms)
+Run 29
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 670 (ms)
+Run 30
+java -cp out Main HIGH CLH 16 2
+Duration for HIGH Contention, CLH lock, 16 players and 2 chests = 673 (ms)
