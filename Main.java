@@ -3,9 +3,9 @@ import java.util.*;
 public class Main {
 
     enum Contention {
-        LOW(thinkMs(15), work(200)),
-        MEDIUM(thinkMs(5), work(800)),
-        HIGH(thinkMs(0), work(2500));
+        LOW(thinkMs(100), work(1000)),
+        MEDIUM(thinkMs(30), work(5000)),
+        HIGH(thinkMs(5), work(10000));
 
         final int thinkMs;
         final int csWorkIters;
@@ -26,88 +26,95 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         try {
-            String contention = (args.length > 0) ? args[0] : "LOW";
-            int _players = (args.length > 1) ? Integer.parseInt(args[1]) : 2;
-            String lockType = (args.length > 2) ? args[2] : "CLH";
-            int chestCount = (args.length > 3) ? Integer.parseInt(args[3]) : 2;
-
-            System.out.printf("Args => contention=%s players=%d lock=%s chests=%d%n",
-                    contention, _players, lockType, chestCount);
-            validateArgs(args);
-
-            Contention level = Contention.valueOf(args[0].toUpperCase());
-            int numPlayers = Math.abs(Integer.parseInt(args[1]));
-            Lock _lock = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
-            int numChest = Math.abs(Integer.parseInt(args[3]));
-
-            List<Player> players = new ArrayList<>();
-            List<TreasureChest> chests = new ArrayList<>();
-
-            for (int i = 0; i < numChest; i++) {
-                Lock _temp = (args[2].toUpperCase().equals("CLH")) ? new CLHLock() : new TTASLock();
-                chests.add(new TreasureChest("Chest " + i, 2000, _temp));
+            if (args.length != 4) {
+                throw new IllegalArgumentException(
+                        "Too few/many Arguments. Must be [Contention] [lock] [numPlayers] [numChests]");
             }
 
-            for (int i = 0; i < numPlayers; i++) {
-                players.add(new Player("Player " + i, chests, level.thinkMs, level.csWorkIters));
-                players.get(i).start();
+            String contention = validateContentionType(args[0]);
+            if (contention.equals("")) {
+                throw new IllegalArgumentException("Contention type must be LOW, MEDIUM or HIGH.");
             }
 
-            for (Player p : players) {
-                p.join();
+            String lockType = validateLock(args[1]);
+            if (lockType.equals("")) {
+                throw new IllegalArgumentException("Lock must be TTAS or CLH");
             }
 
+            int numPlayers = isInteger(args[2]);
+            if (numPlayers == -1) {
+                throw new IllegalArgumentException("numPlayers must be a number >=1");
+            }
+
+            int numChests = isInteger(args[3]);
+            if (numChests == -1) {
+                throw new IllegalArgumentException("numChests must be a number >=1");
+            }
+
+            playGame(contention, lockType, numPlayers, numChests);
         } catch (IllegalArgumentException e) {
-            System.err.println("Arguement exception: " + e);
+            System.out.println("Invalid Argument: " + e.getMessage());
             return;
         }
-
     }
 
-    public static void validateArgs(String[] input) {
-        if (input.length != 4) {
-            throw new IllegalArgumentException(
-                    "Too few/many Arguments. Arguments must be [ContentionType] [no. of players] [Type of Lock] [no. of chests].");
-        }
-
-        String temp = input[0].toUpperCase();
-        if (!temp.equals("HIGH") && !temp.equals("MEDIUM") && !temp.equals("LOW")) {
-            throw new IllegalArgumentException("Invalid contention. Must be LOW, MEDIUM or HIGH.");
-        }
-
-        if (!isInteger(input[1])) {
-            throw new IllegalArgumentException("Invalid number of players. Must be a number.");
-        }
-
-        int i = Integer.parseInt(input[1]);
-        if (i < 1) {
-            throw new IllegalArgumentException("Invalid number of players. Must greater than or equal 1.");
-        }
-
-        temp = input[2].toUpperCase();
-        if (!temp.equals("TTAS") && !temp.equals("CLH")) {
-            throw new IllegalArgumentException("Invalid lock type. Must be CLH or TTAS.");
-        }
-
-        if (!isInteger(input[3])) {
-            throw new IllegalArgumentException("Invalid number of chests. Must be a number.");
-        }
-
-        i = Integer.parseInt(input[3]);
-        if (i < 1) {
-            throw new IllegalArgumentException("Invalid number of chests. Must greater than or equal 1.");
+    public static String validateContentionType(String input) {
+        if (input.equals("LOW") || input.equals("MEDIUM") || input.equals("HIGH")) {
+            return input;
+        } else {
+            return "";
         }
     }
 
-    public static boolean isInteger(String input) {
+    public static String validateLock(String input) {
+        if (input.equals("CLH") || input.equals("TTAS")) {
+            return input;
+        } else {
+            return "";
+        }
+    }
+
+    public static int isInteger(String input) {
         if (input == null)
-            return false;
+            return -1;
 
         try {
-            Integer.parseInt(input);
-            return true;
+            int temp = Integer.parseInt(input);
+
+            if (temp < 1) {
+                return -1;
+            }
+            return temp;
         } catch (NumberFormatException e) {
-            return false;
+            return -1;
         }
+    }
+
+    public static void playGame(String contention, String lockType, int numPlayers, int numChests) {
+        Contention level = Contention.valueOf(contention);
+
+        List<TreasureChest> chests = new ArrayList<>();
+        for (int i = 0; i < numChests; i++) {
+            Lock tempLock = (lockType.equals("CLH")) ? new CLHLock() : new TTASLock();
+            chests.add(new TreasureChest("Chest " + i, 2000, tempLock));
+        }
+
+        List<Player> players=new ArrayList<>();
+        for(int i=0;i<numPlayers;i++){
+            players.add(new Player("Player "+i,chests,level.thinkMs,level.csWorkIters));
+        }
+
+        try{
+            long startTime=System.currentTimeMillis();
+            for(Player p:players) p.start();
+            for(Player p:players) p.join();
+            long duration=System.currentTimeMillis()-startTime;
+            System.out.println("Duration for " + contention +" Contention, "+ lockType+ " lock, " +numPlayers+" players and "+ numChests+ " chests = "+duration+ " (ms)");
+        } catch(InterruptedException e){
+            Thread.currentThread().interrupt();
+            System.out.println("Game interrupted and ended early!");
+            return;
+        }
+        
     }
 }
